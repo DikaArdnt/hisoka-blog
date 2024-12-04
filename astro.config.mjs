@@ -17,8 +17,8 @@ export default defineConfig({
 				baseUrl: 'https://github.com/DikaArdnt/hisoka-blog/edit/master/',
 			},
 			social: {
-				github: 'https://github.com/HisokaLabs/hisoka',
-				email: 'mailto:contact@hisoka.net'
+				github: 'https://github.com/DikaArdnt/hisoka-blog',
+				email: 'mailto:contact@hisoka.net',
 			},
 			sidebar: [
 				{
