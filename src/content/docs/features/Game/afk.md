@@ -19,7 +19,7 @@ kamu bisa mengubah statusmu menjadi `AFK` agar seseorang tau kamu sedang tidak a
 |                       Level                       |  0   |
 
 # Command
-## **#download**
+## **#afk**
 
 Pengguna dapat mengirimkan perintah bersamaan alasan, atau membalas media, misal
 ```sh
