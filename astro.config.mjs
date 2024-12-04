@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://docs.hisoka.net',
 	integrations: [
 		starlight({
 			title: 'Hisoka',
@@ -13,7 +14,7 @@ export default defineConfig({
 			},
 			favicon: '/favicon.ico',
 			editLink: {
-				baseUrl: 'https://blog.hisoka.net',
+				baseUrl: 'https://github.com/DikaArdnt/hisoka-blog/edit/master/',
 			},
 			social: {
 				github: 'https://github.com/HisokaLabs/hisoka',
