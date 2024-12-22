@@ -21,7 +21,7 @@ curl -X POST https://hisoka.net/api/v1/send \
       "target": "RECIPIENT_PHONE_NUMBER",
       "caption": "Hello World",
       "url": "https://hisoka.net/img/hisoka.png",
-      "send_as": "auto",
+      "as": "auto",
    }'
 ```
 
@@ -40,7 +40,7 @@ const res = await fetch('https://hisoka.net/api/v1/send', {
 		target: 'RECIPIENT_PHONE_NUMBER',
 		caption: 'Hello World!',
 		url: 'https://hisoka.net/img/hisoka.png',
-		send_as: 'auto',
+		as: 'auto',
 	}),
 });
 
@@ -66,7 +66,7 @@ payload = {
    'target': 'RECIPIENT_PHONE_NUMBER',
    'caption': 'Hello World',
    'url': 'https://hisoka.net/img/hisoka.png',
-   'send_as': 'auto'
+   'as': 'auto'
 }
 
 response = requests.post(url, headers=headers, data=json.dumps(payload))
@@ -85,7 +85,7 @@ Gantilah `YOUR_API_KEY` dengan API key kamu dan `RECIPIENT_PHONE_NUMBER` dengan 
 3. `all-group`
 4. `group` </br> Jika ingin mengirimkan ke grup, maka gunakan `receiver` type `group` dan masukkan ID grup tersebut tanpa akhiran `@g.us`.
 
-**send_as** - tipe pesan media, dukungan saat ini:
+**as** - tipe pesan media, dukungan saat ini:
 1. auto (default)
 2. sticker
 3. gif
