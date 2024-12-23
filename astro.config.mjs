@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://docs.hisoka.net',
+	site: 'https://help.hisoka.net',
 	integrations: [
 		starlight({
 			title: 'Hisoka',
